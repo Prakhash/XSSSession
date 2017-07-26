@@ -10,7 +10,7 @@
 
 
 <a href="reflected.jsp">Reflected</a>.<br>
-<a href="persistance.jsp">persistance</a>.<br>
+<a href="Persitent.jsp">Persitent</a>.<br>
 <a href="domAttack.jsp">domAttack</a>.<br>
 <a href="Unprotected.jsp">Unprotected</a>.<br>
 <a href="WithInputValidation.jsp">WithInputValidation</a>.<br>

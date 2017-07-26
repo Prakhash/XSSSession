@@ -9,7 +9,7 @@
 <h1>Cross-Site Scripting (XSS)</h1>
 
 
-<form action="unprotected" id="unprotectedForm" method="post">
+<form action="reflected" id="unprotectedForm" method="post">
     <fieldset>
         <legend>Reflected</legend>
         <label for="unprotectedName">Name</label>
@@ -27,7 +27,7 @@
     </script>
 <script id="hiddenMsg" language="text">
         <h2><span style="color: #CC704C"> <code>
-            " &lt;script>alert(1)&lt;/script>"
+            " &lt;/script>&lt;script>alert(1)&lt;/script>"
             </code></span> </h2>
     </script>
 <p id="msgContainer" onclick="getAttackScript() "><span style="color: #0066cc"> Click me to get the attacking script.</span></p>
