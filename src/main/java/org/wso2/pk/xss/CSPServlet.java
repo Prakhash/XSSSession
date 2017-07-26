@@ -24,6 +24,10 @@ public class CSPServlet extends HttpServlet {
         log.info("Received {} as data", name);
 
         response.setContentType("text/html");
+
+        //A web site administrator wants all content to come from the site's own origin (this excludes subdomains.)
+        //for more EX: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+
         response.setHeader("Content-Security-Policy", "default-src 'self'");
 
         try (PrintWriter out = response.getWriter()) {

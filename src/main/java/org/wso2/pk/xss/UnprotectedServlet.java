@@ -20,7 +20,14 @@ public class UnprotectedServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException {
         String name = request.getParameter("unprotectedName");
 
-        log.info("Received {} as data", name);
+
+        String ipAddress = request.getHeader("X-FORWARDED-FOR");
+        if (ipAddress == null) {
+            ipAddress = request.getRemoteAddr();
+
+        }
+
+        log.info("\nUser "+ ipAddress+ " is trying to access the server with data"+name);
 
         response.setContentType("text/html");
 
@@ -31,6 +38,7 @@ public class UnprotectedServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Cross-Site Scripting (XSS) - Unprotected</h1>");
+            out.println("<script><div>");
             out.println("<p>[" + name + "]</p>");
             out.println("<p><a href=\"index.jsp\">Home</a></p>");
             out.println("</body></html>");

@@ -27,7 +27,7 @@
     </script>
 <script id="hiddenMsg" language="text">
         <h2><span style="color: #CC704C"> <code>
-            " &lt;script>alert(1)&lt;/script>"
+            "Something with &lt;script>alert(1)&lt;/script> ;) "
             </code></span> </h2>
     </script>
 <p id="msgContainer" onclick="getAttackScript() "><span style="color: #0066cc"> Click me to get the attacking script.</span></p>
